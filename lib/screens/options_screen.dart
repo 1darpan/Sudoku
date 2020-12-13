@@ -22,7 +22,7 @@ class OptionsScreen extends StatelessWidget {
           child: Column(
             children: [
               ListTile(
-                leading: Icon(FontAwesomeIcons.crow),
+                leading: Icon(FontAwesomeIcons.crown),
                 title: Text('Get Premium'),
               )
             ],
