@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "619384235645",
+    "project_id": "sudoku-70e2f",
+    "storage_bucket": "sudoku-70e2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619384235645:android:720c98b92038b28434b314",
+        "android_client_info": {
+          "package_name": "com.darpan.sudoku_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619384235645-9me99ak033trl019s5pi9oqbtavhc7h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darpan.sudoku_app",
+            "certificate_hash": "4929e4433a1521f4f798dcd3152348eda56c2a57"
+          }
+        },
+        {
+          "client_id": "619384235645-ea4k8qgjk2dbpvfm5uf1bnoo3lj72tpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIqSkQAxgdV0eQgZwtkGvoavC5--uvByA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619384235645-ea4k8qgjk2dbpvfm5uf1bnoo3lj72tpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

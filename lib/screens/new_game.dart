@@ -22,9 +22,9 @@ class NewGame extends StatelessWidget {
               boxShadow: [
                 BoxShadow(
                   color: Colors.grey.withOpacity(0.5),
-                  spreadRadius: 5.0,
+                  spreadRadius: 2.0,
                   blurRadius: 7.0,
-                  offset: Offset(2, 2),
+                  offset: Offset(3, 3),
                 )
               ]),
           child: Center(
@@ -102,6 +102,10 @@ class NewGame extends StatelessWidget {
           Container(
             padding: EdgeInsets.symmetric(vertical: 6.0),
             alignment: Alignment.topCenter,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10.0),
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sudoku_app/screens/personal.dart';
 import '../services/welcome_screen_ui.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -14,10 +15,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static List<Widget> _widgetOptions = <Widget>[
     WelcomeScreenUI(),
-    Text(
-      'Personal',
-      style: optionStyle,
-    ),
+    PersonalScreen(),
   ];
 
   void _onItemTapped(int index) {
