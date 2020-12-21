@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:sudoku_app/assets/my_flutter_app_icons.dart';
 import 'package:sudoku_app/screens/about.dart';
 
 class OptionsScreen extends StatelessWidget {
@@ -28,7 +29,7 @@ class OptionsScreen extends StatelessWidget {
                   elevation: 0.0,
                   child: ListTile(
                     leading: Icon(
-                      FontAwesomeIcons.crown,
+                      MyFlutterApp.crown_icon,
                       color: Colors.black87,
                     ),
                     contentPadding: EdgeInsets.symmetric(horizontal: 20.0),

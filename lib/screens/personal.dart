@@ -57,6 +57,14 @@ class PersonalScreen extends StatelessWidget {
               },
               child: Text('Sign Out'),
             ),
+            RaisedButton(
+              onPressed: null,
+              child: Text('Login with facebook'),
+            ),
+            RaisedButton(
+              onPressed: null,
+              child: Text('Log Out FB'),
+            ),
           ],
         ),
       ),
